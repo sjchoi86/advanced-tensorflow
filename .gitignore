@@ -105,3 +105,9 @@ node_modules
 __pycache__
 *.swp
 
+# DCGAN
+dcgan/checkpoint/*
+dcgan/data/*
+dcgan/logs/*
+dcgan/samples/*
+!*.gitkeep
