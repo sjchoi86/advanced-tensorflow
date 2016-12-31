@@ -110,4 +110,6 @@ dcgan/checkpoint/*
 dcgan/data/*
 dcgan/logs/*
 dcgan/samples/*
+char-rnn/data/*
 !*.gitkeep
+!*.txt
