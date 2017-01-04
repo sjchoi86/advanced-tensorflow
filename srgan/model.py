@@ -99,7 +99,8 @@ class Model:
         return self
     def add_conv2d(self, num_units, mapsize=1, stride=1, stddev_factor=1.0):
         """Adds a 2D convolutional layer."""
-        assert len(self.get_output().get_shape()) == 4 and "Previous layer must be 4-dimensional (batch, width, height, channels)"
+        assert len(self.get_output().get_shape()) == 4 and
+            "Previous layer must be 4-dimensional (batch, width, height, channels)"
         with tf.variable_scope(self._get_layer_str()):
             prev_units = self._get_num_inputs()
             # Weight term and convolution
@@ -118,7 +119,8 @@ class Model:
         return self
     def add_conv2d_transpose(self, num_units, mapsize=1, stride=1, stddev_factor=1.0):
         """Adds a transposed 2D convolutional layer"""
-        assert len(self.get_output().get_shape()) == 4 and "Previous layer must be 4-dimensional (batch, width, height, channels)"
+        assert len(self.get_output().get_shape()) == 4 and 
+            "Previous layer must be 4-dimensional (batch, width, height, channels)"
         with tf.variable_scope(self._get_layer_str()):
             prev_units = self._get_num_inputs()
             # Weight term and convolution
@@ -144,7 +146,8 @@ class Model:
         return self
     def add_residual_block(self, num_units, mapsize=3, num_layers=2, stddev_factor=1e-3):
         """Adds a residual block as per Arxiv 1512.03385, Figure 3"""
-        assert len(self.get_output().get_shape()) == 4 and "Previous layer must be 4-dimensional (batch, width, height, channels)"
+        assert len(self.get_output().get_shape()) == 4 and 
+            "Previous layer must be 4-dimensional (batch, width, height, channels)"
         # Add projection in series if needed prior to shortcut
         if num_units != int(self.get_output().get_shape()[3]):
             self.add_conv2d(num_units, mapsize=1, stride=1, stddev_factor=1.)
@@ -158,7 +161,8 @@ class Model:
         return self
     def add_bottleneck_residual_block(self, num_units, mapsize=3, stride=1, transpose=False):
         """Adds a bottleneck residual block as per Arxiv 1512.03385, Figure 3"""
-        assert len(self.get_output().get_shape()) == 4 and "Previous layer must be 4-dimensional (batch, width, height, channels)"
+        assert len(self.get_output().get_shape()) == 4 and 
+            "Previous layer must be 4-dimensional (batch, width, height, channels)"
         # Add projection in series if needed prior to shortcut
         if num_units != int(self.get_output().get_shape()[3]) or stride != 1:
             ms = 1 if stride == 1 else mapsize
