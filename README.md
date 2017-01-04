@@ -1,5 +1,6 @@
 # Advanced TensorFlow
-Little More Advanced TensorFlow Implementations
+Collection of Little More Advanced TensorFlow Implementations 
+
 AA
 
 1. Deep Convolutional GAN with MNIST from [carpedm20](https://github.com/carpedm20/DCGAN-tensorflow)
