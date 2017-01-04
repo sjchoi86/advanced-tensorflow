@@ -111,5 +111,12 @@ dcgan/data/*
 dcgan/logs/*
 dcgan/samples/*
 char-rnn/data/*
+
+# SRGAN
+srgan/checkpoint/*
+srgan/dataset/*
+srgan/train/*
+
+# GENERAL
 !*.gitkeep
 !*.txt
