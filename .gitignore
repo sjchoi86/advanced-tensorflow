@@ -116,6 +116,11 @@ char-rnn/data/*
 srgan/checkpoint/*
 srgan/dataset/*
 
+# MNIST
+mnist/data/*
+mnist/logs/*
+mnist/model/*
+
 # GENERAL
 !*.gitkeep
 !*.txt
