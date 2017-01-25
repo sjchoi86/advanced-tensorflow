@@ -121,6 +121,10 @@ mnist/data/*
 mnist/logs/*
 mnist/model/*
 
+# DANN
+dann/data/*
+
+
 # GENERAL
 !*.gitkeep
 !*.txt
