@@ -124,6 +124,8 @@ mnist/model/*
 # DANN
 dann/data/*
 
+# BASIC
+basic/data/*
 
 # GENERAL
 !*.gitkeep
