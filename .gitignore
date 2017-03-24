@@ -127,6 +127,9 @@ dann/data/*
 # BASIC
 basic/data/*
 
+# CAM
+cam/data/*
+
 # GENERAL
 !*.gitkeep
 !*.txt
