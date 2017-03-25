@@ -130,6 +130,9 @@ basic/data/*
 # CAM
 cam/data/*
 
+# AUTOENCODER
+ad/data/*
+
 # GENERAL
 !*.gitkeep
 !*.txt
