@@ -1,7 +1,6 @@
 # Advanced TensorFlow
-Collection of (Little More) Advanced TensorFlow Implementations.
-
-Try my best to implement algorithms with a single Jupyter Notebook.
+Collection of (Little More + Refactored) Advanced TensorFlow Implementations. 
+Try my best to implement algorithms with a single Jupyter Notebook. 
 
 ### [AutoEncoder](https://github.com/sjchoi86/advanced-tensorflow/tree/master/ae)
 - Denoising AutoEncoder
