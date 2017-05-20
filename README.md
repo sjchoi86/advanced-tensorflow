@@ -5,6 +5,7 @@ Try my best to implement algorithms with a single Jupyter Notebook.
 ### [AutoEncoder](https://github.com/sjchoi86/advanced-tensorflow/tree/master/ae)
 - Denoising AutoEncoder
 - Convolutional AutoEncoder (using deconvolution)
+- Variational AutoEncoder
 ### [Adversarial Variational Bayes](https://github.com/sjchoi86/advanced-tensorflow/tree/master/avb)
 - AVB on 2-dimensional Toy Example
 ### [Basics](https://github.com/sjchoi86/advanced-tensorflow/tree/master/basic)
@@ -25,6 +26,8 @@ Try my best to implement algorithms with a single Jupyter Notebook.
 ### [Mixture Density Network](https://github.com/sjchoi86/advanced-tensorflow/tree/master/mdn)
 - Mixture Density Network
 - Heteroscedastic Mixture Density Network
+### [Reinforcement Learning](https://github.com/sjchoi86/advanced-tensorflow/tree/master/rl)
+- Model Based RL (Value Iteration and Policy Iteration)
 ### [TF-SLIM](https://github.com/sjchoi86/advanced-tensorflow/tree/master/mnist)
 - MNIST Classification with TF-SLIM
 ### [Super Resolution](https://github.com/sjchoi86/advanced-tensorflow/tree/master/srgan)
